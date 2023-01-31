@@ -38,15 +38,7 @@ h1 {
     cursor: pointer;
 }
 
-.btn:hover {
-    color: hsl(0, 0%, 95%);
-    background-color: rgb(56, 54, 54);
-}
 
-.spec-btn:hover {
-    color: hsl(0, 0%, 95%);
-    background-color: rgb(56, 54, 54);
-}
 
 .spec-btn {
     width: 3.8cm;
