@@ -4,7 +4,10 @@ let string = "";
 
 Array.from(buttons).forEach((x)=>{
     x.addEventListener('click', (e) => {
-        console.log(e.target);
+        setTimeout(() => {
+            x.style.background = "hsl(0, 0%, 95%)";
+            x.style.color = "black";
+        }, 100);
         if(e.target.innerHTML == '='){
             string = eval(string)
             document.querySelector('input').value = string;
