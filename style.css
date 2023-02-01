@@ -36,9 +36,18 @@ h1 {
     background-color: hsl(0, 0%, 95%);
     box-shadow: 2px 2px 5px rgba(53, 53, 53, 0.384);
     cursor: pointer;
+    -webkit-tap-highlight-color: transparent;
 }
 
+.btn:hover {
+    color: hsl(0, 0%, 95%);
+    background-color: rgb(56, 54, 54);
+}
 
+.spec-btn:hover {
+    color: hsl(0, 0%, 95%);
+    background-color: rgb(56, 54, 54);
+}
 
 .spec-btn {
     width: 3.8cm;
@@ -58,6 +67,8 @@ h1 {
 }
 
 .ip {
+    justify-content: flex-end;
+    align-items: center;
     width: 7.4cm;
     height: 3cm;
     margin-left: 0.4cm;
