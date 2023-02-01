@@ -37,9 +37,10 @@ h1 {
     box-shadow: 2px 2px 5px rgba(53, 53, 53, 0.384);
     cursor: pointer;
     -webkit-tap-highlight-color: transparent;
+    transition: 0.5s;
 }
 
-.btn:hover {
+/* .btn:hover {
     color: hsl(0, 0%, 95%);
     background-color: rgb(56, 54, 54);
 }
@@ -47,7 +48,7 @@ h1 {
 .spec-btn:hover {
     color: hsl(0, 0%, 95%);
     background-color: rgb(56, 54, 54);
-}
+} */
 
 .spec-btn {
     width: 3.8cm;
@@ -58,6 +59,8 @@ h1 {
     background-color: hsl(0, 0%, 95%);
     box-shadow: 2px 2px 5px rgba(53, 53, 53, 0.384);
     cursor: pointer;
+    -webkit-tap-highlight-color: transparent;
+    transition: 0.5s;
 }
 
 .row {
@@ -75,10 +78,74 @@ h1 {
     font-size: 3rem;
     border: none;
     background-color: hsl(0, 0%, 95%);
+    transition: 0.5s;
 }
 
 .cal-bg {
     background-color: hsl(0, 0%, 95%);
     padding: 20px 10px;
     border-radius: 20px;
+    transition: 0.5s;
+}
+
+
+/* For dark theme */
+
+.theme {
+    margin-left: 1cm;
+    width: 0.8cm;
+    height: 0.8cm; 
+    background-color: rgb(53, 121, 121);
+    border-radius: 0.4cm;
+    border: none;
+    cursor: pointer;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.btn-d {
+    width: 1.7cm;
+    height: 1.7cm;
+    border-radius: 1cm;
+    border: none;
+    color: white;
+    font-size: 1.5rem;
+    background-color: hsl(0, 1%, 23%);
+    box-shadow: 2px 2px 10px rgba(158, 158, 158, 0.384);
+    cursor: pointer;
+    -webkit-tap-highlight-color: transparent;
+    transition: 0.5s;
+}
+
+.spec-btn-d {
+    width: 3.8cm;
+    height: 1.7cm;
+    border-radius: 1.5cm;
+    border: none;
+    font-size: 1.5rem;
+    color: white;
+    background-color: hsl(0, 1%, 23%);
+    box-shadow: 2px 2px 5px rgba(158, 158, 158, 0.384);
+    cursor: pointer;
+    -webkit-tap-highlight-color: transparent;
+    transition: 0.5s;
+}
+
+.ip-d {
+    justify-content: flex-end;
+    align-items: center;
+    width: 7.4cm;
+    height: 3cm;
+    margin-left: 0.4cm;
+    font-size: 3rem;
+    border: none;
+    color: white;
+    background-color: hsl(0, 1%, 23%);
+    transition: 0.5s;
+}
+
+.cal-bg-d {
+    background-color: hsl(0, 1%, 23%);
+    padding: 20px 10px;
+    border-radius: 20px;
+    transition: 0.5s;
 }
