@@ -28,7 +28,29 @@ Array.from(buttons).forEach((x)=>{
     })
 })
 
+// For Theme Toggle
+
+let toggle = document.querySelector('.theme');
+let btn = document.querySelectorAll('.btn');
+let sbtn = document.querySelector('.spec-btn');
+let ip = document.querySelector('.ip');
+let calbg = document.querySelector('.cal-bg');
+
+toggle.addEventListener('click', (e)=> {
+    sbtn.classList.toggle('spec-btn-d');
+    ip.classList.toggle('ip-d');
+    calbg.classList.toggle('cal-bg-d');
+    Array.from(btn).forEach((b)=>{
+        b.classList.toggle('btn-d');
+    })
+})
+
+
+// For Keyboard functionality
+
  document.addEventListener('keydown', (e) => {
+    console.log(e.key);
+    console.log(typeof(e.key));
     if(e.key == '1'){
         string = string + e.key;
         document.querySelector('.ip').innerHTML = string;
@@ -106,5 +128,8 @@ Array.from(buttons).forEach((x)=>{
         string = ""
         document.querySelector('.ip').innerHTML = string;
     }
+    
+    
+
  })
 
