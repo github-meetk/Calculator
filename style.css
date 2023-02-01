@@ -40,16 +40,6 @@ h1 {
     transition: 0.5s;
 }
 
-/* .btn:hover {
-    color: hsl(0, 0%, 95%);
-    background-color: rgb(56, 54, 54);
-}
-
-.spec-btn:hover {
-    color: hsl(0, 0%, 95%);
-    background-color: rgb(56, 54, 54);
-} */
-
 .spec-btn {
     width: 3.8cm;
     height: 1.7cm;
