@@ -37,7 +37,7 @@ h1 {
     box-shadow: 2px 2px 5px rgba(53, 53, 53, 0.384);
     cursor: pointer;
     -webkit-tap-highlight-color: transparent;
-    transition: 0.5s;
+    transition: 0.5s ease-in;
 }
 
 .spec-btn {
@@ -50,7 +50,7 @@ h1 {
     box-shadow: 2px 2px 5px rgba(53, 53, 53, 0.384);
     cursor: pointer;
     -webkit-tap-highlight-color: transparent;
-    transition: 0.5s;
+    transition: 0.5s ease-in;
 }
 
 .row {
@@ -68,14 +68,14 @@ h1 {
     font-size: 3rem;
     border: none;
     background-color: hsl(0, 0%, 95%);
-    transition: 0.5s;
+    transition: 0.5s ease-in;
 }
 
 .cal-bg {
     background-color: hsl(0, 0%, 95%);
     padding: 20px 10px;
     border-radius: 20px;
-    transition: 0.5s;
+    transition: 0.5s ease-in;
 }
 
 
@@ -103,7 +103,7 @@ h1 {
     box-shadow: 2px 2px 10px rgba(158, 158, 158, 0.384);
     cursor: pointer;
     -webkit-tap-highlight-color: transparent;
-    transition: 0.5s;
+    transition: 0.5s ease-out;
 }
 
 .spec-btn-d {
@@ -117,7 +117,7 @@ h1 {
     box-shadow: 2px 2px 5px rgba(158, 158, 158, 0.384);
     cursor: pointer;
     -webkit-tap-highlight-color: transparent;
-    transition: 0.5s;
+    transition: 0.5s ease-out;
 }
 
 .ip-d {
@@ -130,12 +130,12 @@ h1 {
     border: none;
     color: white;
     background-color: hsl(0, 1%, 23%);
-    transition: 0.5s;
+    transition: 0.5s ease-out;
 }
 
 .cal-bg-d {
     background-color: hsl(0, 1%, 23%);
     padding: 20px 10px;
     border-radius: 20px;
-    transition: 0.5s;
+    transition: 0.5s ease-out;
 }
